@@ -1,28 +1,27 @@
 {
   "xsappname": "testapp",
   "tenant-mode": "dedicated",
-  "description": "Security profile of called application",
   "scopes": [
     {
       "name": "$XSAPPNAME.admin",
-      "description": "Admin access"
+      "description": "Admin Scope"
     },
     {
       "name": "$XSAPPNAME.vendor",
-      "description": "Vendor access"
+      "description": "Vendor Scope"
     }
   ],
   "role-templates": [
     {
       "name": "Admin",
-      "description": "Administrator role",
+      "description": "Administrator Role",
       "scope-references": [
         "$XSAPPNAME.admin"
       ]
     },
     {
       "name": "Vendor",
-      "description": "Vendor role",
+      "description": "Vendor Role",
       "scope-references": [
         "$XSAPPNAME.vendor"
       ]

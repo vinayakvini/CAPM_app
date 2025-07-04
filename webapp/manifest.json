@@ -14,6 +14,20 @@
       "id": "@sap/generator-fiori:basic",
       "version": "1.18.1",
       "toolsId": "2a75c4bd-1be6-4515-8787-a6fa31693520"
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "testapp-Display": {
+          "semanticObject": "testapp",
+          "action": "Display",
+          "title": "{{testapp-Display.flpTitle}}",
+          "subTitle": "{{testapp-Display.flpSubtitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
     }
   },
   "sap.ui": {
@@ -55,7 +69,6 @@
       "dummy": {
         "type": "sap.ui.model.json.JSONModel"
       }
-
     },
     "resources": {
       "css": [

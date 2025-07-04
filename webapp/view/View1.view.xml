@@ -14,6 +14,9 @@
                     <Column id="_IDGenColumn2">
                         <Text id="_IDGenText2" text="Department" />
                     </Column>
+                    <Column id="_IDGenColumn3">
+                        <Text id="_IDGenText2" text="Manager" />
+                    </Column>
                 </columns>
                 <items>
                     <ColumnListItem id="_IDGenColumnListItem">
